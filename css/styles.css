@@ -710,7 +710,7 @@ body {
     width: 650px;
   }
 
-  .location__text{
+  .location__text {
     width: 100%;
   }
 }
@@ -735,6 +735,10 @@ body {
 
   .nav__item+.nav__item {
     margin-left: 25px;
+  }
+
+  .nav__link {
+    font-size: 14px;
   }
 
   .hero__container {
@@ -1043,7 +1047,7 @@ body {
 
   /* GET-ACCESS */
   .get-access__form {
-    width: 336px;
+    width: 320px;
     padding: 35px 30px;
   }
 
@@ -1109,7 +1113,7 @@ body {
     margin-bottom: 20px;
   }
 
- .phone {
+  .phone {
     margin-bottom: 20px;
   }
 
