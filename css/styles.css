@@ -569,7 +569,7 @@ body {
   content: "";
 }
 
-.location-text {
+.location__text {
   width: 379px;
   align-self: flex-start;
 }
@@ -709,6 +709,10 @@ body {
   .get-access__form {
     width: 650px;
   }
+
+  .location__text{
+    width: 100%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -734,7 +738,7 @@ body {
   }
 
   .hero__container {
-    width: 305px;
+    width: 500px;
   }
 
   .hero__img {
@@ -898,6 +902,10 @@ body {
   .footer__info-link {
     margin: 0;
     margin-bottom: 20px;
+  }
+
+  .location-text {
+    width: 100%;
   }
 
   .phone {
@@ -1101,11 +1109,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .location-text {
-    width: 100%;
-  }
-
-  .phone {
+ .phone {
     margin-bottom: 20px;
   }
 
