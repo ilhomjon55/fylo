@@ -83,7 +83,7 @@ body {
 .site__header {
   display: flex;
   align-items: center;
-  padding: 75px 80px;
+  padding: 50px 80px;
   font-family: "Raleway", "Arial", "sans-serif";
 }
 
@@ -310,11 +310,10 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #62E0D9;
   white-space: nowrap;
-  transition: width 0.3s ease;
 }
 
-.stay-productive__link:hover {
-  width: 180px;
+.stay-productive__link:hover::after {
+  transform: translateX(50%);
 }
 
 .stay-productive__link::after {
@@ -328,6 +327,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 8px 6px;
+  transition: transform 0.3s ease;
   content: "";
 }
 
